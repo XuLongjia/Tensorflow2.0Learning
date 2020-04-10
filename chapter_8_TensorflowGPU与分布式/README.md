@@ -72,14 +72,23 @@
         - parameter server负责整合梯度，更新参数
         - Worker负责计算，训练网络
 - distirbuted_subgradient_descent   
-<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png" style="zoom:50%" />
-![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png)
+
+<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png" style="zoom:50%" />  
+
+![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png)  
+
 - 分布式类型-同步-MultiworkerMirroredStrategy  
-<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png" style="zoom:50%" />
-![MultiworkerMirroredStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png)
+
+<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png" style="zoom:50%" />  
+
+![MultiworkerMirroredStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png)  
+
 - 分布式类型-异步-ParameterServerStrategy  
-<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png" style="zoom:50%" />
-![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png)
+
+<img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png" style="zoom:50%" />  
+
+![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png)  
+
 - 同步和异步的优劣
     - 多机多卡
         - 异步可以避免短板效应
