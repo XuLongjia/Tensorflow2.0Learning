@@ -72,11 +72,11 @@
         - parameter server负责整合梯度，更新参数
         - Worker负责计算，训练网络
 - distirbuted_subgradient_descent   
-![distirbuted_subgradient_descent]()
+![distirbuted_subgradient_descent](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/chapter_8_TensorflowGPU%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F/chapter8image/distirbuted_subgradient_descent.png){:height="50%" width="50%"}
 - 分布式类型-同步-MultiworkerMirroredStrategy  
-![MultiworkerMirroredStrategy]()
+![MultiworkerMirroredStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/chapter_8_TensorflowGPU%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F/chapter8image/MultiworkerMirroredStrategy.png){:height="50%" width="50%"}
 - 分布式类型-异步-ParameterServerStrategy  
-![ParameterServerStrategy]()
+![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/chapter_8_TensorflowGPU%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F/chapter8image/parameterServerStrategy.png){:height="50%" width="50%"}
 - 同步和异步的优劣
     - 多机多卡
         - 异步可以避免短板效应

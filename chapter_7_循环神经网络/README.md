@@ -1,4 +1,4 @@
-#循环神经网络
+# 循环神经网络
 ***
 - 1 embedding_padding_pooling.ipynb
 - 2 embedding_rnn.ipynb
