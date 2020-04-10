@@ -73,12 +73,13 @@
         - Worker负责计算，训练网络
 - distirbuted_subgradient_descent   
 <img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png" style="zoom:50%" />
+![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/distirbuted_subgradient_descent.png)
 - 分布式类型-同步-MultiworkerMirroredStrategy  
 <img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png" style="zoom:50%" />
-![MultiworkerMirroredStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/chapter_8_TensorflowGPU%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F/chapter8image/MultiworkerMirroredStrategy.png){:height="50%" width="50%"}
+![MultiworkerMirroredStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/MultiworkerMirroredStrategy.png)
 - 分布式类型-异步-ParameterServerStrategy  
 <img src="https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png" style="zoom:50%" />
-![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/chapter_8_TensorflowGPU%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F/chapter8image/parameterServerStrategy.png){:height="50%" width="50%"}
+![ParameterServerStrategy](https://github.com/XuLongjia/Tensorflow2.0Learning/tree/master/images/parameterServerStrategy.png)
 - 同步和异步的优劣
     - 多机多卡
         - 异步可以避免短板效应
