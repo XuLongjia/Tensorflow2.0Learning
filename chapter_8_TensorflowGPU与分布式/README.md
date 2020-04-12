@@ -72,11 +72,11 @@
         - parameter server负责整合梯度，更新参数
         - Worker负责计算，训练网络
 - distirbuted_subgradient_descent   
-![ParameterServerStrategy](https://imgchr.com/i/GL4cq0)  
+[![GL4cq0.md.png](https://s1.ax1x.com/2020/04/12/GL4cq0.md.png)](https://imgchr.com/i/GL4cq0)   
 - 分布式类型-同步-MultiworkerMirroredStrategy  
-![MultiworkerMirroredStrategy](https://imgchr.com/i/GL46rq)  
+[![GL46rq.md.png](https://s1.ax1x.com/2020/04/12/GL46rq.md.png)](https://imgchr.com/i/GL46rq)  
 - 分布式类型-异步-ParameterServerStrategy  
-![ParameterServerStrategy](https://imgchr.com/i/GL4yMn)  
+[![GL4yMn.md.png](https://s1.ax1x.com/2020/04/12/GL4yMn.md.png)](https://imgchr.com/i/GL4yMn)  
 
 - 同步和异步的优劣
     - 多机多卡
