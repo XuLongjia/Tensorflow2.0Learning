@@ -1,4 +1,4 @@
-#TensorFlowEstimator使用
+# TensorFlowEstimator使用
 ***
 ## 目录
 - 1 tf_keras_to_estimator.ipynb
@@ -43,9 +43,9 @@
 4. 建立空list，将每个key对应的数据按照对应预处理方式处理后添加到list中
 5. 在Estimator实例化的时候将此list作为参数传入
 ### 通过理论知识分析自己的机器学习任务
-    适合哪个Estimator
-    适合什么样的超参数
-    如何做特征工程  
+- 适合哪个Estimator
+- 适合什么样的超参数
+- 如何做特征工程  
 **训练**     
 - classifier.train(input_fn=lambda:input_fn(train, trian_y, training=True), steps=5000)  
 **要点**  
