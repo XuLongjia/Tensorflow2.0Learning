@@ -72,4 +72,4 @@
 - 需要安装jupyter-tensorboard库 （pip install jupyter-tensorboard)
 - 需要使用Magic Method：load_ext加载插件 (%load_ext tensorboard)
 - % trensorboard --logdir logs  
-![tensorboard](https://github.com/XuLongjia/Tensorflow2.0Learning/blob/master/images/tensorboard.png)
+![tensorboard](https://imgchr.com/i/GL42ZV)
