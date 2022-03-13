@@ -11,3 +11,5 @@
 - 9 quantized\_tflite\_interpreter.ipynb  
 - 10 tfjs\_converter.ipynb  
 - 11 tfjs\_converter\_py.ipynb  
+
+![../images/tfdeploy1.png](../images/tfdeploy1.png)
